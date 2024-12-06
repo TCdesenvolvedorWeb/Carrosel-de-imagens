@@ -1,0 +1,100 @@
+.imagens-slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-slider .slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-slider .mostrar {
+    opacity: 1;
+}
+
+.slide-rosa {
+    background: url(../img/imagem\ \(1\).png);
+}
+
+.slide-verde {
+    background: url(../img/imagem.png);
+}
+
+.slide-laranja {
+    background: url(../img/imagem\ \(2\).png);
+}
+
+.slide-azul {
+    background: url(../img/inverno.png);
+}
+
+.seta-voltar, .seta-avançar{
+    position: absolute;
+}
+
+.seta-voltar {
+    left: 4%;
+}
+
+.seta-avançar {
+    right: 4%;
+}
+
+.seta-voltar .imagem-seta, .seta-avançar .imagem-seta {
+    width: 5rem;
+    height: 5rem;
+}
+
+.opacidade {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.conteudo {
+    display: block;
+    background-color: #fff;
+    margin-left: 18rem;
+    padding: 6.5rem 6rem;
+    width: 62rem;
+    border-radius: 1rem;
+}
+
+.conteudo .titulo {
+    margin-bottom: 8rem;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.conteudo p {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 5rem;
+}
+
+.conteudo .botão {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.botão.rosa {
+    color: #C50000;
+}
+.botão.verde {
+    color: #D9DD10;
+}
+.botão.laranja {
+    color: #A63A17;
+}
+.botão.azul {
+    color: #10ACDD;
+}
